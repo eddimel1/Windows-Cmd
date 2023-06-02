@@ -1,0 +1,20 @@
+[package]
+name = "Windows_Script_Executor"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chardetng = "0.1.17"
+cmake = "0.1.50"
+eframe = "0.21.3"
+egui-modal = "0.2.3"
+encoding_rs = "0.8.32"
+strum = { version = "0.24", features = ["derive"] }
+strum_macros = "0.24.3"
+unicode-normalization = "0.1.16"
+unicode-segmentation = "1.8.0"
+winapi = "0.3.9"
+
+
